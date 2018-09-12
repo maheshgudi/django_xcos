@@ -135,10 +135,10 @@
     <add as="CONST_f" extend="Print"/>
     <add as="CONST" extend="Print"/>
     <add as="GENSQR_f" extend="Icon">
-        <add as="image" value="blocks/SQUARE_WAVE_f.svg"/>
+        <add as="image" value="static/blocks/SQUARE_WAVE_f.svg"/>
     </add>
     <add as="RAMP" extend="Icon">
-        <add as="image" value="blocks/RAMP.svg"/>
+        <add as="image" value="static/blocks/RAMP.svg"/>
     </add>
     <add as="RAND_m" extend="blockWithLabel">
         <add as="displayedLabel" value="Random&lt;BR&gt;         generator"/>
@@ -166,22 +166,22 @@
         <add as="displayedLabel" value="Read from .au&lt;BR&gt;         sound file"/>
     </add>
     <add as="SAWTOOTH_f" extend="Icon">
-        <add as="image" value="blocks/sawtooth.svg"/>
+        <add as="image" value="static/blocks/sawtooth.svg"/>
     </add>
     <add as="STEP_FUNCTION" extend="Icon">
-        <add as="image" value="blocks/STEP_FUNCTION.svg"/>
+        <add as="image" value="static/blocks/STEP_FUNCTION.svg"/>
     </add>
     <add as="STEP" extend="Icon">
-        <add as="image" value="blocks/STEP_FUNCTION.svg"/>
+        <add as="image" value="static/blocks/STEP_FUNCTION.svg"/>
     </add>
     <add as="PULSE_SC" extend="Icon">
-        <add as="image" value="blocks/PULSE_SC.svg"/>
+        <add as="image" value="static/blocks/PULSE_SC.svg"/>
     </add>
     <add as="CLOCK_c" extend="Icon">
-      <add as="image" value="blocks/CLOCK_c.svg"/>
+      <add as="image" value="static/blocks/CLOCK_c.svg"/>
     </add>
     <add as="GENSIN_f" extend="Icon">
-        <add as="image" value="blocks/SINUS_f.svg"/>
+        <add as="image" value="static/blocks/SINUS_f.svg"/>
     </add>
     <add as="IN_f" extend="blockWithLabel">
         <add as="shape" value="hexagon"/>
@@ -193,7 +193,7 @@
         <add as="displayedLabel" value="Read from&lt;BR&gt;         C binary file"/>
     </add>
     <add as="TIME_f" extend="Icon">
-        <add as="image" value="blocks/CLOCK_f.svg"/>
+        <add as="image" value="static/blocks/CLOCK_f.svg"/>
     </add>
     <add as="Modulo_Count" extend="blockWithLabel">
         <add as="displayedLabel" value="Counter&lt;BR&gt;Modulo %s"/>
@@ -202,7 +202,7 @@
         <add as="displayedLabel" value="Signal&lt;BR&gt;Builder"/>
     </add>
     <add as="SampleCLK" extend="Icon">
-      <add as="image" value="blocks/SampleCLK.svg"/>
+      <add as="image" value="static/blocks/SampleCLK.svg"/>
     </add>
     <add as="TKSCALE" extend="blockWithLabel">
         <add as="displayedLabel" value="TK Scale"/>
@@ -216,7 +216,7 @@
         <add as="displayedLabel" value="du / dt"/>
     </add>
     <add as="INTEGRAL_m" extend="Icon">
-      <add as="image" value="blocks/INTEGRAL.svg"/>
+      <add as="image" value="static/blocks/INTEGRAL.svg"/>
     </add>
     <add as="INTEGRAL" extend="INTEGRAL_m"/>
     <add as="CLSS" extend="blockWithLabel">
@@ -245,13 +245,13 @@
     </add>
     <!-- DISCONTINUOUS -->
     <add as="SATURATION" extend="Icon">
-      <add as="image" value="blocks/SATURATION.svg"/>
+      <add as="image" value="static/blocks/SATURATION.svg"/>
     </add>
     <add as="DEADBAND" extend="Icon">
-      <add as="image" value="blocks/DEADBAND.svg"/>
+      <add as="image" value="static/blocks/DEADBAND.svg"/>
     </add>
     <add as="HYSTHERESIS" extend="Icon">
-      <add as="image" value="blocks/HYSTHERESIS.svg"/>
+      <add as="image" value="static/blocks/HYSTHERESIS.svg"/>
     </add>
     <add as="BACKLASH" extend="blockWithLabel">
         <add as="displayedLabel" value="Backlash"/>
@@ -267,7 +267,7 @@
     </add>
     <!-- LOOKUP TABLES -->
     <add as="LOOKUP_f" extend="Icon">
-      <add as="image" value="blocks/DSCOPE.svg"/>
+      <add as="image" value="static/blocks/DSCOPE.svg"/>
     </add>
     <add as="INTRP2BLK_f" extend="blockWithLabel">
         <add as="displayedLabel" value="Interp 2"/>
@@ -280,7 +280,7 @@
         <add as="displayedLabel" value="2freq clock&lt;BR&gt;         f/n f"/>
     </add>
     <add as="QUANT_f" extend="Icon">
-      <add as="image" value="blocks/QUANT_f.svg"/>
+      <add as="image" value="static/blocks/QUANT_f.svg"/>
     </add>
     <add as="MFCLCK_f" extend="blockWithLabel">
         <add as="displayedLabel" value="M. freq&lt;BR&gt;         clock"/>
@@ -313,7 +313,7 @@
         <add as="displayedLabel" value="MIN"/>
     </add>
     <add as="BIGSOM_f" extend="Icon">
-      <add as="image" value="blocks/SUM.svg"/>
+      <add as="image" value="static/blocks/SUM.svg"/>
     </add>
     <add as="POWBLK_f" extend="blockWithLabel">
         <add as="displayedLabel" value="u^a"/>
@@ -356,13 +356,13 @@
         <add as="displayedLabel" value="LOG"/>
     </add>
     <add as="SUMMATION" extend="Icon">
-      <add as="image" value="blocks/SUM.svg"/>
+      <add as="image" value="static/blocks/SUM.svg"/>
     </add>
     <add as="TrigFun" extend="blockWithLabel">
         <add as="displayedLabel" value="Trig function"/>
     </add>
     <add as="PRODUCT" extend="Icon">
-        <add as="image" value="blocks/PRODUCT.svg"/>
+        <add as="image" value="static/blocks/PRODUCT.svg"/>
         <add as="noLabel" value="0"/>
         <!--
 			<add as="displayedLabel" value="&lt;TABLE&gt; &lt;TR&gt;
@@ -524,38 +524,38 @@
     </add>
     <!-- SINKS -->
     <add as="CFSCOPE" extend="Icon">
-        <add as="image" value="blocks/ASCOPE.svg"/>
+        <add as="image" value="static/blocks/ASCOPE.svg"/>
     </add>
     <add as="BARXY" extend="Icon">
-        <add as="image" value="blocks/BARXY.svg"/>
+        <add as="image" value="static/blocks/BARXY.svg"/>
     </add>
     <add as="CANIMXY" extend="Icon">
-        <add as="image" value="blocks/3DSCOPE.svg"/>
+        <add as="image" value="static/blocks/3DSCOPE.svg"/>
     </add>
     <add as="CSCOPE" extend="Icon">
-        <add as="image" value="blocks/ASCOPE.svg"/>
+        <add as="image" value="static/blocks/ASCOPE.svg"/>
     </add>
     <add as="CSCOPXY" extend="Icon">
-      <add as="image" value="blocks/CSCOPXY.svg"/>
+      <add as="image" value="static/blocks/CSCOPXY.svg"/>
     </add>
     <add as="TOWS_c" extend="blockWithLabel">
         <add as="displayedLabel" value="To workspace&lt;BR&gt;%s [%s]"/>
     </add>
     <add as="CMAT3D" extend="blockWithLabel">
-	<add as="image" value="blocks/ASCOPE.svg"/>
+	<add as="image" value="static/blocks/ASCOPE.svg"/>
     </add>
 
     <add as="CSCOPXY3D" extend="Icon">
-        <add as="image" value="blocks/CSCOPXY3D.svg"/>
+        <add as="image" value="static/blocks/CSCOPXY3D.svg"/>
     </add>
     <add as="CANIMXY3D" extend="Icon">
-        <add as="image" value="blocks/3DSCOPE.svg"/>
+        <add as="image" value="static/blocks/3DSCOPE.svg"/>
     </add>
     <add as="CMATVIEW" extend="blockWithLabel">
-        <add as="image" value="blocks/ASCOPE.svg"/>
+        <add as="image" value="static/blocks/ASCOPE.svg"/>
     </add>
     <add as="CMSCOPE" extend="Icon">
-      <add as="image" value="blocks/ASCOPE.svg"/>
+      <add as="image" value="static/blocks/ASCOPE.svg"/>
     </add>
 
   <add as="AFFICH_m" extend="blockWithLabel">
@@ -644,7 +644,7 @@
 
     </add>
     <add as="ANDBLK" extend="Icon">
-      <add as="image" value="blocks/ANDBLK.svg"/>
+      <add as="image" value="static/blocks/ANDBLK.svg"/>
     </add>
     <add as="HALT_f" extend="blockWithLabel">
         <add as="displayedLabel" value="HALT"/>
@@ -659,17 +659,17 @@
         <add as="displayedLabel" value="Delay: %s"/>
     </add>
     <add as="CEVENTSCOPE" extend="Icon">
-        <add as="image" value="blocks/DSCOPE.svg"/>
+        <add as="image" value="static/blocks/DSCOPE.svg"/>
     </add>
     <!-- SIGNAL ROUTING -->
    <add as="SELF_SWITCH" extend="Icon">
-        <add as="image" value="blocks/Self_Switch_off.svg"/>
+        <add as="image" value="static/blocks/Self_Switch_off.svg"/>
     </add>
     <add as="SELF_SWITCH_ON" extend="Icon">
-        <add as="image" value="blocks/Self_Switch_on.svg"/>
+        <add as="image" value="static/blocks/Self_Switch_on.svg"/>
     </add>
     <add as="SELF_SWITCH_OFF" extend="Icon">
-        <add as="image" value="blocks/Self_Switch_off.svg"/>
+        <add as="image" value="static/blocks/Self_Switch_off.svg"/>
     </add>
     <add as="ISELECT_m" extend="blockWithLabel">
         <add as="displayedLabel" value="Selector"/>
@@ -694,7 +694,7 @@
         <add as="noLabel" value="0"/>
         <add as="displayedLabel" value="Dynamic index"/>
   -->
-        <add as="image" value="blocks/SWITCH.svg"/>
+        <add as="image" value="static/blocks/SWITCH.svg"/>
     </add>
     <add as="SWITCH_f" extend="Icon">
       <!--  <add as="verticalLabelPosition" value="bottom"/>
@@ -703,15 +703,15 @@
         <add as="noLabel" value="0"/>
         <add as="displayedLabel" value="Static: %s"/>
 	-->
-        <add as="image" value="blocks/SWITCH.svg"/>
+        <add as="image" value="static/blocks/SWITCH.svg"/>
     </add>
     <add as="SWITCH2_m" extend="Icon">
       <add as="verticalLabelPosition" value="bottom"/>
       <add as="verticalAlign" value="top"/>
       <add as="spacing" value="2"/>
-      <add as="noLabel" value="0"/>
+      <add as="noLabel" value ="0"/>
       <add as="displayedLabel" value="Dynamic"/>
-      <add as="image" value="blocks/SWITCH.svg"/>
+      <add as="image" value="static/blocks/SWITCH.svg"/>
     </add>
     <add as="NRMSOM_f" extend="blockWithLabel">
         <add as="verticalLabelPosition" value="bottom"/>
@@ -799,15 +799,15 @@
         <add as="displayedLabel" value="C block:&lt;BR&gt;%s"/>
     </add>
     <add as="SUPER_f" extend="Icon">
-        <add as="image" value="blocks/SUPER.svg"/>
+        <add as="image" value="static/blocks/SUPER.svg"/>
     </add>
     <add as="DSUPER" extend="SUPER_f"/>
     <!-- ELECTRICAL -->
     <add as="Capacitor" extend="Icon">
-        <add as="image" value="blocks/Capacitor.svg"/>
+        <add as="image" value="static/blocks/Capacitor.svg"/>
     </add>
     <add as="Ground" extend="Icon">
-        <add as="image" value="blocks/Ground.svg"/>
+        <add as="image" value="static/blocks/Ground.svg"/>
     </add>
     <add as="VVsourceAC" extend="blockWithLabel">
         <add as="shape" value="ellipse"/>
@@ -815,28 +815,28 @@
         <add as="displayedLabel" value="1 V&lt;br/&gt;~ %s"/>
     </add>
     <add as="ConstantVoltage" extend="Icon">
-        <add as="image" value="blocks/ConstantVoltage.svg"/>
+        <add as="image" value="static/blocks/ConstantVoltage.svg"/>
     </add>
     <add as="Inductor" extend="Icon">
-        <add as="image" value="blocks/Inductor.svg"/>
+        <add as="image" value="static/blocks/Inductor.svg"/>
     </add>
     <add as="PotentialSensor" extend="Icon">
-        <add as="image" value="blocks/PotentialSensor.svg"/>
+        <add as="image" value="static/blocks/PotentialSensor.svg"/>
     </add>
     <add as="VariableResistor" extend="Icon">
-        <add as="image" value="blocks/VariableResistor.svg"/>
+        <add as="image" value="static/blocks/VariableResistor.svg"/>
     </add>
     <add as="CurrentSensor" extend="Icon">
-        <add as="image" value="blocks/CurrentSensor.svg"/>
+        <add as="image" value="static/blocks/CurrentSensor.svg"/>
     </add>
     <add as="Resistor" extend="Icon">
-        <add as="image" value="blocks/Resistor.svg"/>
+        <add as="image" value="static/blocks/Resistor.svg"/>
     </add>
     <add as="VoltageSensor" extend="Icon">
-        <add as="image" value="blocks/VoltageSensor.svg"/>
+        <add as="image" value="static/blocks/VoltageSensor.svg"/>
     </add>
     <add as="Diode" extend="Icon">
-        <add as="image" value="blocks/Diode.svg"/>
+        <add as="image" value="static/blocks/Diode.svg"/>
     </add>
     <add as="VsourceAC" extend="blockWithLabel">
         <add as="shape" value="ellipse"/>
@@ -845,10 +845,10 @@
         <add as="displayedLabel" value="%s V&lt;br/&gt;~ %s"/>
     </add>
     <add as="NPN" extend="Icon">
-        <add as="image" value="blocks/NPN.svg"/>
+        <add as="image" value="static/blocks/NPN.svg"/>
     </add>
     <add as="PNP" extend="Icon">
-        <add as="image" value="blocks/PNP.svg"/>
+        <add as="image" value="static/blocks/PNP.svg"/>
     </add>
     <add as="SineVoltage" extend="blockWithLabel">
         <add as="shape" value="ellipse"/>
@@ -856,10 +856,10 @@
         <add as="displayedLabel" value="%s V&lt;br/&gt;~"/>
     </add>
     <add as="SWITCH2_m" extend="Icon">
-        <add as="image" value="blocks/SWITCH.svg"/>
+        <add as="image" value="static/blocks/SWITCH.svg"/>
     </add>
     <add as="Switch" extend="Icon">
-        <add as="image" value="blocks/SWITCH.svg"/>
+        <add as="image" value="static/blocks/SWITCH.svg"/>
     </add>
     <add as="OpAmp" extend="blockWithLabel">
         <add as="shape" value="triangle"/>
@@ -872,51 +872,51 @@
         <add as="spacingBottom" value="7"/>
     </add>
     <add as="PMOS" extend="Icon">
-        <add as="image" value="blocks/PMOS.svg"/>
+        <add as="image" value="static/blocks/PMOS.svg"/>
     </add>
     <add as="NMOS" extend="Icon">
-        <add as="image" value="blocks/NMOS.svg"/>
+        <add as="image" value="static/blocks/NMOS.svg"/>
     </add>
     <add as="CCS" extend="Icon">
-        <add as="image" value="blocks/CCS.svg"/>
+        <add as="image" value="static/blocks/CCS.svg"/>
     </add>
     <add as="CVS" extend="Icon">
-        <add as="image" value="blocks/CVS.svg"/>
+        <add as="image" value="static/blocks/CVS.svg"/>
     </add>
     <add as="IdealTransformer" extend="Icon">
-        <add as="image" value="blocks/IdealTransformer.svg"/>
+        <add as="image" value="static/blocks/IdealTransformer.svg"/>
     </add>
     <add as="Gyrator" extend="Icon">
-        <add as="image" value="blocks/Gyrator.svg"/>
+        <add as="image" value="static/blocks/Gyrator.svg"/>
     </add>
     <!-- THERMO-HYDRAULICS -->
     <add as="Bache" extend="Icon">
-        <add as="image" value="blocks/BACHE.svg"/>
+        <add as="image" value="static/blocks/BACHE.svg"/>
     </add>
     <add as="VanneReglante" extend="Icon">
-        <add as="image" value="blocks/VanneReglante.svg"/>
+        <add as="image" value="static/blocks/VanneReglante.svg"/>
     </add>
     <add as="PerteDP" extend="Icon">
-        <add as="image" value="blocks/PerteDP.svg"/>
+        <add as="image" value="static/blocks/PerteDP.svg"/>
     </add>
     <add as="PuitsP" extend="Icon">
-        <add as="image" value="blocks/PuitP.svg"/>
+        <add as="image" value="static/blocks/PuitP.svg"/>
     </add>
     <add as="SourceP" extend="Icon">
-        <add as="image" value="blocks/SourceP.svg"/>
+        <add as="image" value="static/blocks/SourceP.svg"/>
     </add>
     <add as="Flowmeter" extend="Icon">
-        <add as="image" value="blocks/Flowmeter.svg"/>
+        <add as="image" value="static/blocks/Flowmeter.svg"/>
     </add>
     <!-- DEMONSTRATION BLOCKS -->
     <add as="BOUNCE" extend="blockWithLabel">
         <add as="displayedLabel" value="Bouncing&lt;BR&gt;         balls"/>
     </add>
     <add as="BOUNCEXY" extend="Icon">
-        <add as="image" value="blocks/3DSCOPE.svg"/>
+        <add as="image" value="static/blocks/3DSCOPE.svg"/>
     </add>
     <add as="BPLATFORM" extend="Icon">
-        <add as="image" value="blocks/BPLATFORM.svg"/>
+        <add as="image" value="static/blocks/BPLATFORM.svg"/>
     </add>
     <add as="AUTOMAT" extend="blockWithLabel">
         <!-- FIXME : Show parameters over block  -->
@@ -926,7 +926,7 @@
     <add as="SPLIT_f" extend="Split"/>
     <!--
 	<add as="SCALAR2VECTOR" extend="Icon">
-		<add as="image" value="blocks/SCALAR2VECTOR.gif" />
+		<add as="image" value="static/blocks/SCALAR2VECTOR.gif" />
 	</add>
 	-->
     <add as="SAT_f" extend="SATURATION"/>
@@ -960,20 +960,20 @@
     </add>
     <add as="DEMUX_f" extend="DEMUX"/>
     <add as="DEADBAND" extend="Icon">
-      <add as="image" value="blocks/DEADBAND.svg"/>
+      <add as="image" value="static/blocks/DEADBAND.svg"/>
     </add>
     <add as="Counter" extend="blockWithLabel">
         <add as="displayedLabel" value="Counter&lt;BR&gt;%s &amp;#8594; %s"/>
     </add>
     <add as="CLOCK_f" extend="Icon">
-      <add as="image" value="blocks/CLOCK_c.svg"/>
+      <add as="image" value="static/blocks/CLOCK_c.svg"/>
     </add>
     <add as="VirtualCLK0" extend="CLOCK_f"/>
     <add as="CLKSPLIT_f" extend="Split"/>
     <add as="IMPSPLIT_f" extend="Split"/>
     <add as="CLKSOM_f" extend="CLKSOMV_f"/>
     <add as="CLKOUT_f" extend="Icon">
-        <add as="image" value="blocks/CLKOUT_f.gif"/>
+        <add as="image" value="static/blocks/CLKOUT_f.gif"/>
     </add>
     <add as="ABSBLK_f" extend="blockWithLabel">
         <add as="displayedLabel" value="y = |u|"/>
