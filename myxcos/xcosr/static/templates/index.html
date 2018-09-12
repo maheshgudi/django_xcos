@@ -19,15 +19,15 @@
         <script src="static/js/only_scifunc_code.js" type="text/javascript"></script>
         <script src="static/js/importparameters.js" type="text/javascript"></script>
         <script src="static/js/LOOKUP_CURV.js" type="text/javascript"></script>
-        <script type="static/text/javascript" src="static/highcharts/highcharts.js"></script> <!-- Used for producing 2d-highcharts -->
-        <script type="static/text/javascript" src="static/highcharts/highcharts-3d.js"></script> <!-- Used for producing 3d-highcharts in output if required --> 
-        <script type="static/text/javascript" src="static/highcharts/exporting.js"></script> <!-- Used for the exporting feature of highcharts -->
-        <script type="static/text/javascript" src="static/highcharts/draggable-DEpoints.js"></script><!-- Used for dragging graph points -->
+        <script type="text/javascript" src="static/highcharts/highcharts.js"></script> <!-- Used for producing 2d-highcharts -->
+        <script type="text/javascript" src="static/highcharts/highcharts-3d.js"></script> <!-- Used for producing 3d-highcharts in output if required --> 
+        <script type="text/javascript" src="static/highcharts/exporting.js"></script> <!-- Used for the exporting feature of highcharts -->
+        <script type="text/javascript" src="static/highcharts/draggable-points.js"></script><!-- Used for dragging graph points -->
 
 
         <script src="static/js/Queue.js" type="text/javascript"></script>
         <script src="static/js/chart.js" type="text/javascript"></script>
-        <script type="static/text/javascript">
+        <script type="text/javascript">
 
          var editor ;
 
@@ -366,7 +366,7 @@
                         };
          
                         //var config = mxUtils.load('config/editor-commons.xml').getDocumentElement();
-                        var config = mxUtils.load('config/keyhandler-commons.xml').getDocumentElement();
+                        var config = mxUtils.load('static/config/keyhandler-commons.xml').getDocumentElement();
                         editor.configure(config);
          
                         graph.isCellSelectable = function(cell) {
@@ -3590,7 +3590,7 @@
                 }
          
                 function addIcons(graph, sidebar) {
-                    var req = mxUtils.load('palettes/palettes.xml');
+                    var req = mxUtils.load('static/palettes/palettes.xml');
                     var root = req.getDocumentElement();
                     var x = root.getElementsByTagName('node')[0];
                     var categories = x.getElementsByTagName('node');
@@ -3963,7 +3963,7 @@
                 };
          
                 function configureStylesheet(graph) {
-                    var req = mxUtils.load('styles/Xcos-style.xml');
+                    var req = mxUtils.load('static/styles/Xcos-style.xml');
                     var root = req.getDocumentElement();
                     var dec = new mxCodec(root.ownerDocument);
                     dec.decode(root, graph.stylesheet);
